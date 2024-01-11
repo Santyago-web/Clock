@@ -1,0 +1,28 @@
+.clock {
+    display: flex;
+}
+
+.numeric {
+    display: flex;
+    margin-right: 5px;
+}
+
+.number {
+    margin-right: 3px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+
+    border-style: solid;
+    border-color: black;
+
+    margin-right: 2px;
+}
+
+
+
+
+
+
