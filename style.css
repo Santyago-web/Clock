@@ -4,8 +4,15 @@ body {
     background-size: cover;
 }
 
+.weather {
+    display: flex;
+    margin-left: 1150px;
+    margin-top: 50px;
+    transform: rotate(-7deg);
+}
+
 .clock {
-    margin-top: 23%;
+    margin-top: 200px;
     margin-left:50%;
     display: flex;
     transform: rotate(-7deg);
@@ -64,9 +71,7 @@ body {
     margin-left: 15px;
 }
 
-.weather {
-    display: flex;
-}
+
 
 
 
