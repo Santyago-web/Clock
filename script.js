@@ -13,15 +13,6 @@ square_11 = document.getElementById('square_11'),
 square_12 = document.getElementById('square_12');
 
 
-let today = new Date(),
-    hours = today.getHours(),
-    minutes = today.getMinutes(),
-    seconds = today.getSeconds();
-//hours = 9;
-//minutes = 12;
-//seconds = 5;
-
-
 function numberNull(squareOne, squareTwo) {
     squareOne.style.borderColor = 'red red white red';
     squareTwo.style.borderColor = 'white red red red';
@@ -73,6 +64,11 @@ function numberNinth(squareOne, squareTwo) {
 }
 
 function clock() {
+    let today = new Date(),
+        hours = today.getHours(),
+        minutes = today.getMinutes(),
+        seconds = today.getSeconds();
+    
     switch (hours) {
         case 0:
             numberNull(square_1, square_2);
@@ -660,4 +656,4 @@ function clock() {
     }
 }
 
-setInterval(clock, 1000);
+setInterval(clock, 1000)
