@@ -6,14 +6,13 @@ body {
 
 .clock {
     margin-top: 23%;
-    margin-left:52%;
+    margin-left:50%;
     display: flex;
     transform: rotate(-7deg);
 }
 
 .numeric {
     display: flex;
-    margin-right: 20px;
 }
 
 .number {
@@ -30,6 +29,44 @@ body {
     margin-right: 2px;
 }
 
+.round {
+    border-style: solid;
+    border-radius: 100%;
+    border-color: yellow;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: yellow;
+}
+
+#round_1 {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+#round_2 {
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+#round_3 {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+#round_4 {
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.weather {
+    display: flex;
+}
 
 
 

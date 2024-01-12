@@ -1,4 +1,2 @@
-function change() {
-    let square = document.getElementsByClassName('square');
-    square.style
-}
+let temp = document.getElementsByClassName('temp');
+temp.textcontent = '11';
