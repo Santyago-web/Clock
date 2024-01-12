@@ -14,53 +14,53 @@ square_12 = document.getElementById('square_12');
 
 
 function numberNull(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red white red';
-    squareTwo.style.borderColor = 'white red red red';
+    squareOne.style.borderColor = 'yellow yellow transparent yellow';
+    squareTwo.style.borderColor = 'transparent yellow yellow yellow';
 }
 
 function numberOne(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'white red white white';
-    squareTwo.style.borderColor = 'white red white white';
+    squareOne.style.borderColor = 'transparent yellow transparent transparent';
+    squareTwo.style.borderColor = 'transparent yellow transparent transparent';
 }
 
 function numberTwo(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red white white';
-    squareTwo.style.borderColor = 'red white red red';
+    squareOne.style.borderColor = 'yellow yellow yellow transparent';
+    squareTwo.style.borderColor = 'yellow transparent yellow yellow';
 }
 
 function numberThree(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red white white';
-    squareTwo.style.borderColor = 'red red red white';
+    squareOne.style.borderColor = 'yellow yellow yellow transparent';
+    squareTwo.style.borderColor = 'yellow yellow yellow transparent';
 }
 
 function numberForth(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'white red red red';
-    squareTwo.style.borderColor = 'white red white white';
+    squareOne.style.borderColor = 'transparent yellow yellow yellow';
+    squareTwo.style.borderColor = 'yellow yellow transparent transparent';
 }
 
 function numberFifth(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red white red red';
-    squareTwo.style.borderColor = 'white red red white';
+    squareOne.style.borderColor = 'yellow transparent yellow yellow';
+    squareTwo.style.borderColor = 'yellow yellow yellow transparent';
 }
 
 function numberSixth(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red white white red';
-    squareTwo.style.borderColor = 'red red red red';
+    squareOne.style.borderColor = 'yellow transparent yellow yellow';
+    squareTwo.style.borderColor = 'yellow yellow yellow yellow';
 }
 
 function numberSeventh(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red white white';
-    squareTwo.style.borderColor = 'white red white white';
+    squareOne.style.borderColor = 'yellow yellow transparent transparent';
+    squareTwo.style.borderColor = 'transparent yellow transparent transparent';
 }
 
 function numberEight(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red white red';
-    squareTwo.style.borderColor = 'red red red red';
+    squareOne.style.borderColor = 'yellow yellow yellow yellow';
+    squareTwo.style.borderColor = 'yellow yellow yellow yellow';
 }
 
 function numberNinth(squareOne, squareTwo) {
-    squareOne.style.borderColor = 'red red red red';
-    squareTwo.style.borderColor = 'white red red white';
+    squareOne.style.borderColor = 'yellow yellow yellow yellow';
+    squareTwo.style.borderColor = 'yellow yellow yellow transparent';
 }
 
 function clock() {
