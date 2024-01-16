@@ -1279,3 +1279,10 @@ fetch('https://api.weatherapi.com/v1/current.json?key=d183b844252547c6bd21306312
         }
     });
 
+fetch('https://api.weatherapi.com/v1/current.json?key=d183b844252547c6bd2130631241201&q=Khimki&aqi=no')
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        temp = data['current']['temp_c'];
+    });

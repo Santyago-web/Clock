@@ -6,8 +6,8 @@ body {
 
 .weather {
     display: flex;
-    margin-left: 1150px;
-    margin-top: 50px;
+    margin-left: 1170px;
+    margin-top: -320px;
     transform: rotate(-7deg);
 }
 
